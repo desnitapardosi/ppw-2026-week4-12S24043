@@ -1,0 +1,385 @@
+/* =========================================================
+   1. CSS CUSTOM PROPERTIES (VARIABLES) - Standar Modul 3
+========================================================= */
+:root {
+    --bg-main: #F6FAFD;
+    --dark-navy: #0A1931;
+    --navy-medium: #1A3D63;
+    --accent-blue: #4A7FA7;
+    --light-blue: #B3CFE5;
+    --shadow-soft: 0 12px 30px rgba(10, 25, 49, 0.12);
+}
+
+/* Global Reset & Base Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--dark-navy);
+    scroll-behavior: smooth;
+}
+
+.text-dark-custom { color: var(--dark-navy); }
+.text-accent { color: var(--accent-blue); }
+.text-accent-light { color: var(--light-blue); }
+.text-accent-dark { color: var(--navy-medium); }
+.bg-dark-custom { background-color: var(--dark-navy) !important; }
+.bg-accent { background-color: var(--accent-blue) !important; }
+.bg-light-custom { background-color: var(--light-blue); }
+
+/* Max Width Helpers */
+.max-w-650 { max-width: 650px; }
+.max-w-900 { max-width: 900px; }
+
+/* =========================================================
+   HEADER & NAVBAR OVERRIDES (Persis Gambar Kedua)
+========================================================= */
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+/* Logo Bulat Tanpa Teks */
+.logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+}
+
+/* Kapsul Navbar Kanan Atas */
+.navbar-nav {
+    background: rgba(179, 207, 229, 0.75);
+    backdrop-filter: blur(10px);
+    padding: 6px 12px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav .nav-link {
+    color: #0A1931 !important;
+    font-weight: 700;
+    padding: 10px 22px !important;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: #4A7FA7;
+    color: #FFFFFF !important;
+}
+
+/* =========================================================
+   HERO SECTION (CENTERED LAYOUT)
+========================================================= */
+.hero {
+    min-height: 100vh;
+    position: relative;
+    padding: 140px 20px 80px;
+    background:
+        radial-gradient(circle at 15% 20%, rgba(179, 207, 229, 0.35), transparent 30%),
+        radial-gradient(circle at 85% 80%, rgba(74, 127, 167, 0.25), transparent 35%),
+        linear-gradient(135deg, #0A1931 0%, #1A3D63 50%, #4A7FA7 100%);
+    color: #F6FAFD;
+}
+
+/* Teks Tengah */
+.hero-content {
+    max-width: 750px;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.hero-label {
+    letter-spacing: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #B3CFE5;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.hero h1 span {
+    display: block;
+    color: #FFFFFF;
+}
+
+.hero-role {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+/* Garis kursor vertikal setelah teks role */
+.hero-role::after {
+    content: "|";
+    margin-left: 10px;
+    color: #B3CFE5;
+    font-weight: 400;
+}
+
+.hero-description {
+    font-size: 0.95rem;
+    color: #B3CFE5;
+    line-height: 1.7;
+    margin: 0 auto 35px;
+    max-width: 650px;
+}
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 36px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    color: #1A3D63;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+    transform: translateY(-4px);
+    background: #B3CFE5;
+    color: #0A1931;
+}
+
+/* Foto Profil di Posisi Kanan Bawah */
+.hero-photo {
+    position: absolute;
+    right: 6%;
+    bottom: 0;
+    width: 250px;
+    height: 330px;
+    z-index: 4;
+}
+
+.photo-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 140px 140px 0 0;
+    background: #B3CFE5;
+    opacity: 0.2;
+    transform: rotate(4deg);
+}
+
+.profile-image {
+    position: relative;
+    width: 230px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 120px 120px 0 0;
+    border: 5px solid #F6FAFD;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Tablet/Mobile Adjustment */
+@media (max-width: 991px) {
+    .hero-photo {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin: 40px auto 0;
+        opacity: 0.85;
+    }
+}
+
+/* =========================================================
+   4. SECTION HEADINGS & CARDS
+========================================================= */
+.section-subtitle {
+    color: var(--accent-blue);
+    letter-spacing: 3px;
+    font-size: 0.85rem;
+}
+
+.profile-card {
+    background-color: var(--light-blue);
+}
+
+.profile-aside {
+    background-color: var(--navy-medium);
+}
+
+.project-card {
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-soft) !important;
+}
+
+.project-number {
+    color: var(--accent-blue);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+/* Penyesuaian Gambar Proyek Dinamis Week 4 */
+.project-image-wrapper {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    background-color: var(--light-blue);
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.05);
+}
+
+.badge-custom {
+    background-color: var(--light-blue);
+    color: var(--dark-navy);
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 15px;
+}
+
+.btn-outline-primary-custom {
+    border: 2px solid var(--accent-blue);
+    color: var(--navy-medium);
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary-custom:hover {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+}
+
+/* =========================================================
+   5. TABLE OVERRIDES
+========================================================= */
+.table-dark-custom th {
+    background-color: var(--navy-medium);
+    color: #ffffff;
+}
+
+.table-light-custom th,
+.table-light-custom td {
+    background-color: var(--light-blue);
+    color: var(--dark-navy);
+}
+
+/* =========================================================
+   6. SKILLS SECTION
+========================================================= */
+.skills-container {
+    background: linear-gradient(135deg, rgba(179, 207, 229, 0.75), rgba(246, 250, 253, 0.90));
+    border: 1px solid rgba(179, 207, 229, 0.70);
+}
+
+.title-line {
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: var(--accent-blue);
+    margin: 15px auto 0;
+    border-radius: 10px;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    color: var(--navy-medium);
+    font-weight: 600;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    background-color: var(--light-blue);
+}
+
+.skill-icon {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.7rem;
+    padding: 6px 10px;
+}
+
+/* =========================================================
+   7. FORMULIR LAYANAN
+========================================================= */
+.contact-section {
+    background-color: var(--light-blue);
+}
+
+.btn-submit {
+    background-color: var(--navy-medium);
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* =========================================================
+   FOOTER ENHANCEMENTS
+========================================================= */
+.footer-contact-link {
+    transition: color 0.3s ease;
+}
+
+.footer-contact-link:hover {
+    color: var(--light-blue) !important;
+}
+
+.social-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon-btn:hover {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(74, 127, 167, 0.4);
+}

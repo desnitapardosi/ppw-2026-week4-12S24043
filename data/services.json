@@ -1,0 +1,22 @@
+[
+  {
+    "value": "web",
+    "name": "Web Development"
+  },
+  {
+    "value": "database",
+    "name": "Database"
+  },
+  {
+    "value": "uiux",
+    "name": "UI/UX Design"
+  },
+  {
+    "value": "system",
+    "name": "Analisis Sistem"
+  },
+  {
+    "value": "consultation",
+    "name": "Konsultasi Teknologi"
+  }
+]

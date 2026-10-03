@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "number": "01",
+    "title": "Organic Fruit Store",
+    "thumbnail": "./images/organic-fruit-store.png",
+    "category": "Software Engineering",
+    "role": "Java & Database Developer",
+    "duration": "4 Minggu",
+    "course": "Pemrograman Berorientasi Objek",
+    "description": "Sistem penjualan buah organik berbasis Java Desktop yang menerapkan konsep OOP, arsitektur MVC, dan integrasi basis data MySQL.",
+    "tags": ["Java", "MySQL", "Maven", "JDBC"],
+    "details": "Aplikasi manajemen toko buah organik yang dibangun menggunakan Java. Sistem mendukung operasi CRUD stok produk, perhitungan otomatis total transaksi, dan pembuatan laporan penjualan yang tersimpan ke basis data MySQL melalui JDBC.",
+    "features": [
+      "Manajemen CRUD Stok Buah",
+      "Kalkulasi Transaksi Otomatis",
+      "Integrasi MySQL via JDBC",
+      "Penerapan Design Pattern MVC"
+    ],
+    "highlights": "Mengimplementasikan enkapsulasi dan pewarisan OOP secara ketat serta mengoptimalkan koneksi JDBC untuk mencegah kebocoran resource data."
+  },
+  {
+    "id": 2,
+    "number": "02",
+    "title": "Sistem Rekam Medis Klinik Del",
+    "thumbnail": "./images/rekam-medis-klinik-del.png",
+    "category": "System Analysis & UI/UX",
+    "role": "System Analyst & UI/UX Designer",
+    "duration": "3 Minggu",
+    "course": "Analisis dan Perancangan Sistem Informasi",
+    "description": "Perancangan sistem informasi rekam medis terintegrasi dengan CIS untuk pengajuan izin sakit mahasiswa Institut Teknologi Del.",
+    "tags": ["Figma", "ERD", "DFD", "UI/UX"],
+    "details": "Rancangan arsitektur sistem dan antarmuka untuk pengelolaan medis kampus. Meliputi penyusunan dokumen SRS, pemetaan alur DFD Level 0-2, skema ERD relasional, dan prototipe interaktif High-Fidelity di Figma.",
+    "features": [
+      "Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SRS)",
+      "Diagram Alir Data (DFD Level 0-2)",
+      "Entity Relationship Diagram (ERD)",
+      "Interactive High-Fidelity Prototype Figma"
+    ],
+    "highlights": "Menganalisis alur verifikasi izin sakit agar terintegrasi otomatis dengan sistem akademik kampus (CIS)."
+  },
+  {
+    "id": 3,
+    "number": "03",
+    "title": "Database Akademik CIS",
+    "thumbnail": "./images/database-akademik-cis.png",
+    "category": "Database Architecture",
+    "role": "Database Engineer & Designer",
+    "duration": "3 Minggu",
+    "course": "Basis Data / Database Management",
+    "description": "Perancangan arsitektur basis data relasional kompleks untuk pengelolaan data KRS, presensi, dan jadwal perkuliahan.",
+    "tags": ["SQL", "ERD", "3NF", "Database"],
+    "details": "Perancangan basis data terstruktur yang dikembangkan melalui proses normalisasi hingga bentuk 3NF (Third Normal Form) untuk mencegah anomali data serta mengoptimalkan query DDL dan DML.",
+    "features": [
+      "Skema Konseptual & Logikal ERD",
+      "Normalisasi Data hingga 3NF",
+      "Stored Procedures & Triggers",
+      "Query Optimisasi DDL/DML"
+    ],
+    "highlights": "Menerapkan pembatasan integritas referensial dan trigger otomatis untuk mendeteksi bentrok jadwal kuliah."
+  },
+  {
+    "id": 4,
+    "number": "04",
+    "title": "Redesain Proses Bisnis PMB IT Del",
+    "thumbnail": "./images/redesain-pmb-it-del.png",
+    "category": "Business Process Management",
+    "role": "Business Process Analyst",
+    "duration": "4 Minggu",
+    "course": "Manajemen Proses Bisnis",
+    "description": "Analisis dan Business Process Redesign (BPR) Penerimaan Mahasiswa Baru menggunakan BPMN 2.0 dan analisis antrean.",
+    "tags": ["BPMN 2.0", "Bizagi", "Queuing Analysis", "BPR"],
+    "details": "Penerapan metodologi Business Process Redesign untuk memangkas hambatan (waste) pada proses PMB. Menggunakan pemodelan BPMN 2.0 di Bizagi Modeler, analisis Pareto, Fishbone RCA, dan Queuing Analysis.",
+    "features": [
+      "Pemodelan Proses Bisnis As-Is dan To-Be",
+      "Lean Waste & Delay Analysis",
+      "Queuing Model Simulation",
+      "Rekomendasi Automasi Verifikasi Data"
+    ],
+    "highlights": "Memangkas estimasi waktu tunggu pendaftaran dengan merancang skema verifikasi dokumen nilai berbasis API."
+  },
+  {
+    "id": 5,
+    "number": "05",
+    "title": "AI Exam Monitoring & Cyber Deception",
+    "thumbnail": "./images/ai-exam-monitoring.png",
+    "category": "Cybersecurity & Research",
+    "role": "Lead Researcher",
+    "duration": "5 Minggu",
+    "course": "Riset Mandiri / Kompetisi KTI",
+    "description": "Karya Tulis Ilmiah strategi integratif pemantauan perilaku AI dan Cyber Deception untuk mencegah kecurangan ujian daring.",
+    "tags": ["Cybersecurity", "AI Behavior", "Cyber Deception", "Riset"],
+    "details": "Riset strategi keamanan siber yang merumuskan mekanisme deteksi dini kecurangan ujian berbasis perilaku AI (AI Behavior Analysis) dipadukan dengan teknik penipuan siber (Cyber Deception/Honeypot).",
+    "features": [
+      "Analisis Vektor Serangan AI pada Ujian",
+      "Perancangan Arsitektur Honeypot Exam",
+      "Deteksi Anomali Perilaku Pengguna",
+      "Strategi Mitigasi Integritas Akademik"
+    ],
+    "highlights": "Merumuskan model honeypot interaktif untuk memancing dan mengidentifikasi bot AI yang mencoba menjawab soal ujian."
+  },
+  {
+    "id": 6,
+    "number": "06",
+    "title": "Nusantara Connect",
+    "thumbnail": "./images/nusantara-connect.png",
+    "category": "Product Strategy & UI/UX",
+    "role": "Product Strategist & UI/UX Lead",
+    "duration": "4 Minggu",
+    "course": "Proyek Pengembangan Produk Digital",
+    "description": "Perancangan strategi bisnis, model pendanaan, dan prototipe UI platform perjalanan destinasi Danau Toba dan Sumatera Utara.",
+    "tags": ["Figma", "Business Plan", "Travel Tech", "UI/UX"],
+    "details": "Pengembangan strategi branding, model pendapatan, dan prototipe aplikasi perjalanan digital 'Nusantara Connect' yang difokuskan pada promosi pariwisata lokal Kawasan Danau Toba.",
+    "features": [
+      "Perancangan Business Plan & Revenue Model",
+      "User Journey & Flow Diagram",
+      "Prototipe Antarmuka Aplikasi Mobil/Web",
+      "Katalog Paket Wisata Lokal"
+    ],
+    "highlights": "Mengintegrasikan peta interaktif kustom untuk rute wisata budaya di sekeliling Danau Toba."
+  },
+  {
+    "id": 7,
+    "number": "07",
+    "title": "Aplikasi Jadwal Imunisasi Anak",
+    "thumbnail": "./images/jadwal-imunisasi-anak.png",
+    "category": "Healthcare System Design",
+    "role": "UI/UX Designer & System Analyst",
+    "duration": "3 Minggu",
+    "course": "Interaksi Manusia dan Komputer",
+    "description": "Rancangan antarmuka dan sistem informasi pengingat serta penjadwalan imunisasi anak terpadu berbasis kesehatan masyarakat.",
+    "tags": ["Figma", "System Analysis", "Healthcare", "UI/UX"],
+    "details": "Perancangan sistem layanan kesehatan masyarakat yang berfokus pada manajemen kartu imunisasi digital, notifikasi otomatis jadwal vaksinasi anak, serta pencatatan rekam tumbuh kembang anak.",
+    "features": [
+      "Kalender Penjadwalan Imunisasi Otomatis",
+      "Notifikasi Pengingat Layanan Kesehatan",
+      "Pencatatan Rekam Imunisasi Digital",
+      "Desain UI Ramah Pengguna (User-Centric)"
+    ],
+    "highlights": "Merancang tata letak antarmuka yang simpel dan ramah pengguna (user-friendly) khusus untuk memudahkan ibu rumah tangga dan posyandu."
+  }
+]

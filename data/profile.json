@@ -1,0 +1,27 @@
+{
+  "name": "Desnita Pardosi",
+  "program": "S1 Sistem Informasi",
+  "institution": "Institut Teknologi Del",
+  "year": "2024",
+  "role": "Information Systems Student",
+  "label": "PORTFOLIO 2026",
+  "description": "Mahasiswa Sistem Informasi Institut Teknologi Del yang memiliki minat dalam pengembangan sistem, Artificial Intelligence (AI), analisis data, cybersecurity, dan teknologi digital. Memiliki ketertarikan untuk mempelajari dan mengembangkan solusi teknologi yang dapat memberikan manfaat bagi pengguna dan organisasi.",
+  "about": [
+    "Halo, saya merupakan mahasiswa Program Studi S1 Sistem Informasi di Institut Teknologi Del, angkatan 2024.",
+    "Saya memiliki ketertarikan dalam bidang teknologi informasi, khususnya pengembangan sistem, artificial intelligence, data analytics, cybersecurity, dan digital innovation.",
+    "Melalui berbagai proyek perkuliahan, saya terus mengembangkan kemampuan dalam menganalisis permasalahan, merancang sistem, mengelola database, serta membangun solusi teknologi yang bermanfaat."
+  ],
+  "interests": [
+    "System Development",
+    "Web Development",
+    "Artificial Intelligence",
+    "Data Analytics",
+    "Database Management",
+    "UI/UX Design",
+    "Cybersecurity",
+    "Business Process Management",
+    "System Analysis",
+    "Digital Innovation"
+  ],
+  "photo": "./foto-profil.jpeg"
+}
